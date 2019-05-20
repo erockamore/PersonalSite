@@ -1,0 +1,311 @@
+/*Global*/
+* {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+}
+
+.red {
+  color: #fc5c65;  
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #1f1f1f;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #1f1f1f;
+}
+
+h5{
+    font-size: 18px;
+    color: #707070;
+    opacity: .8;
+    margin-top: 10px;
+}
+
+p {
+    color: #707070;
+    font-weight: 100;
+    font-weight: 16px;
+}
+
+/*navigation*/
+
+.nav {
+    align-items: center;
+    height: 100px;
+}
+
+.navIcons {
+    flex: 1;
+}
+
+.navIcons {
+    text-align: right;
+    margin: 0;
+    top: 10px;
+}
+
+.navIcons a, .contactme a, navIcons img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navIcons a {
+    margin-left: 40px;
+}
+
+.contactme a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contactme img {
+    margin-right: 10px;
+    width: 10%;
+    height: auto;
+}
+
+#profile {
+   height: 45%;
+   width: 45%;
+}
+
+/*landing*/
+.landing {
+    height: 100vh;
+}
+
+.landingWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.landingL {
+    margin-top: 4em;
+}
+
+.landingL h5 {
+    margin-bottom: 0;
+}
+
+.landingR h1 {
+    margin-top: 0;  
+}
+
+.scroll {
+    position: absolute;
+    margin-bottom: 180px;
+    left: 0;
+    right: 0;
+    top: 700;
+    bottom: 10;
+    margin: auto;
+}
+
+/*title*/
+#hp {
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+/*skills*/
+
+.skills {
+    text-align: center;
+}
+
+.skills p {
+    margin-bottom: 30px;
+}
+
+.skills img {
+    width: 50px;
+    margin: 0 15px;
+}
+
+/*project 01*/
+
+.works {
+    width: 100%;
+    position: relative;
+    margin-bottom: 7em;
+}
+
+.projectImg {
+    width: 60%;
+    margin-top: 10%;
+    float: right;
+    border: 2px solid white;
+}
+
+.projectImg:hover {
+    border: 2px solid #fc5c65;
+}
+
+.works > .workText {
+    position: absolute;
+    top: 85px;
+}
+
+.works > .workText > .underline {
+   display: block;
+   background-color: #fc5c65;
+   width: 61px;
+   height: 3px;
+   margin-top: 2px;
+}
+
+.works ul {
+    position: absolute;
+    bottom: 0;
+    right: 86%;
+}
+
+.works ul li {
+    margin-top: 20px;
+}
+
+/*project 02*/
+
+.works2 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 7em;
+}
+
+.projectImg {
+    width: 60%;
+    margin-top: 10%;
+    float: right;
+    border: 2px solid white;
+}
+
+.projectImg:hover {
+    border: 2px solid #fc5c65;
+}
+
+.works2 > .workText {
+    position: absolute;
+    top: 85px;
+}
+
+.works2 > .workText > .underline {
+   display: block;
+   background-color: #fc5c65;
+   width: 61px;
+   height: 3px;
+   margin-top: 2px;
+}
+
+.works2 ul {
+    position: absolute;
+    bottom: 0;
+    right: 86%;
+}
+
+.works2 ul li {
+    margin-top: 20px;
+}
+
+/*project 03*/
+
+.works3 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 7em;
+}
+
+.projectImg {
+    width: 60%;
+    margin-top: 10%;
+    float: right;
+    border: 2px solid white;
+}
+
+.projectImg:hover {
+    border: 2px solid #fc5c65;
+}
+
+.works3 > .workText {
+    position: absolute;
+    top: 85px;
+}
+
+.works3 > .workText > .underline {
+   display: block;
+   background-color: #fc5c65;
+   width: 61px;
+   height: 3px;
+   margin-top: 2px;
+}
+
+.works3 ul {
+    position: absolute;
+    bottom: 0;
+    right: 86%;
+}
+
+.works3 ul li {
+    margin-top: 20px;
+}
+
+/*first 2 works*/
+
+.works a, .works2 a, .works3 a {
+    text-decoration: none;
+    color: #17191a;
+}
+
+.footer {
+    padding-bottom: 4em;
+    text-align: center;
+    opacity: .75;
+     font-size: 21px;
+}
+
+.footer:hover {
+    opacity: 1;
+}
+
+.footer a {
+    color: #fc5c65;
+    text-decoration: none;
+}
+
+.underlineSmall {
+    display: block;
+    height: 3px;
+    width: 41px;
+    margin: 5px auto 0 auto;
+}
